@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+        function hide() {
+            document.getElementById('test').style.visibility = 'hidden';
+        }
+        function show() {
+            document.getElementById('test').style.visibility = 'visible';
+        }
+    </script>
+</head>
+<body onload="hide();">
+<div>
+    <div>
+        <input id="test" type="text" size="40" style="width: 350px" value="test!"/>
+        <input id="click" type="button" size="40" style="width: 350px" value="Click me to show text!" onclick="show();"/>
+    </div>
+</div>
+</body>
+</html>
